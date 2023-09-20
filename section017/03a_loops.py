@@ -65,5 +65,6 @@ print(f'The square root of {x} is {guess}')
 
 # hacker's corner
 
-for x in (n**2 for n in [2,4,6,8,10]):
+squares = (n**2 for n in [2,4,6,8,10])
+for x in squares:
     print(x)
