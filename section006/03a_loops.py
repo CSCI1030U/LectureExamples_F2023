@@ -38,3 +38,30 @@ for n in range(0, num_reps):
     estimate += term 
 
 print(f'{estimate = }')
+
+# Coding Exercise 03a.2
+
+x = 2
+
+lower = 0.0
+upper = x
+guess = (lower + upper) / 2
+while abs(guess ** 2 - x) >= 0.00000000001:
+    print(f'  guess = {guess}')
+    if guess ** 2 < x:
+        # our guess is too low
+        lower = guess
+    elif guess ** 2 > x:
+        # our guess is too high
+        upper = guess
+
+    guess = (lower + upper) / 2
+
+print(f'The square root of {x} is {guess}')
+
+
+# hacker's corner
+
+squares = (n**2 for n in [2,4,6,8,10])
+for x in squares:
+    print(x)
