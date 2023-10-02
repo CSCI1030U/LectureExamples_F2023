@@ -23,6 +23,9 @@ def get_class_average(marks):
 midterm_marks = [10.0, 11.0, 9.0]
 print(f'{get_class_average(marks = midterm_marks) = }')
 
+# pass by reference in C++:
+
 # float addOne(float &x) {
 #     x += 1;
 # }
+
