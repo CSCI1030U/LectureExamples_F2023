@@ -39,4 +39,3 @@ rtx4090_str = str(rtx4090)
 print(f'{rtx4090_str = }')
 rtx3070 = GPU(199.99, '12 GB', 340, '2.2 GHz')
 print(f'{rtx3070 < rtx4090 = }')
-        
