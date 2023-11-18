@@ -26,7 +26,6 @@ print(f'{d_and_c_search([4,1,5,2,3], 3) = }')
 
 # Coding Exercise 09b.2
 
-
 def reverse_insertion_sort_tuple_by_fourth(a):
     '''
     Sorts a list of tuples using the 4th element 
